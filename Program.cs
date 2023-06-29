@@ -1,10 +1,8 @@
 using System;
 using System.IO;
 
-class indexados
-{
-    static void main()
-    {
+
+    
         Console.WriteLine("Ingrese el path de una carpeta en particular");
         string ruta = Console.ReadLine();
 
@@ -19,5 +17,4 @@ class indexados
         }else{
             Console.WriteLine("La carpeta que ingreso no existe.");
         }
-    }
-}
+    
